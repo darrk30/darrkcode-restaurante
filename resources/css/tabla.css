@@ -1,0 +1,44 @@
+/* Tabla */
+.table-base {
+    @apply min-w-full divide-y divide-gray-200 text-sm sm:text-base;
+}
+
+.table-header {
+    @apply bg-gray-50;
+}
+
+.table-th {
+    @apply px-4 sm:px-6 py-3 text-left font-medium text-gray-600 uppercase;
+}
+
+.table-td {
+    @apply px-4 sm:px-6 py-3 text-gray-600;
+}
+
+/* Filas */
+.table-row {
+    @apply cursor-pointer odd:bg-white even:bg-gray-50 hover:bg-blue-50;
+}
+
+.table-row-selected {
+    @apply bg-gradient-to-r from-blue-100 to-blue-200 border-l-4 border-blue-500;
+}
+
+/* Botones de íconos */
+.icon-button-blue {
+    @apply text-blue-600 hover:text-blue-800 rounded p-1 transition;
+}
+
+.icon-button-red {
+    @apply text-red-600 hover:text-red-800 rounded p-1 transition;
+}
+
+/* Badges */
+.badge-active {
+    @apply inline-flex items-center px-2 py-1 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full;
+}
+
+.badge-inactive {
+    @apply inline-flex items-center px-2 py-1 text-xs font-semibold leading-5 text-red-800 bg-red-100 rounded-full;
+}
+

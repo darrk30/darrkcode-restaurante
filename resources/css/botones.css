@@ -1,0 +1,15 @@
+/* Estilos para botones de iconos azules */
+.icon-button-blue {
+    @apply text-blue-600 hover:text-blue-800 transition-colors duration-200;
+}
+
+/* Estilos para botones de iconos rojos */
+.icon-button-red {
+    @apply text-red-600 hover:text-red-800 transition-colors duration-200;
+}
+
+/* Opcional: cursor puntero y tamaño de ícono */
+.icon-button-blue,
+.icon-button-red {
+    @apply cursor-pointer;
+}
